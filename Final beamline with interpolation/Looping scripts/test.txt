@@ -1,0 +1,1 @@
+L / m	R_l / m	R_e / m	S to L / m	Voltage / V	Efficiency	sigmaE	Gain	sigmaG	f_fp	sigmaFP	n_alive	N_total	
