@@ -14,7 +14,7 @@
 %Using an interpolating function to get acceleration from Stark potential
 
 tic
-addpath('./Functions')
+addpath('../Functions')
 clear variables
 
 rng(1) %Can set seed for rng for use in debugging
@@ -31,7 +31,7 @@ molecule.J = 2; %Rotational quantum number of molecule (m_J = 0 by assumption)
 %Simulation parameters
 %Step size for RK4 integration inside lens
 dz = 0.001; %meters
-N_molecules = 1e7; %number of molecules for simulation
+N_molecules = 1e6; %number of molecules for simulation
 
 %% Start defining the geometry of the beamline
 n_elements = 0; %set counter for number of beamline elements
